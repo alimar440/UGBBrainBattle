@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body{width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+    padding: 1% 1%;
+border-radius: 15px;}
+    
+.logo,h2{text-align: center;}
+img.logo{width:120px;} 
+        
+
+.red{color: rgb(141, 7, 7);
+     font-size:  400;}        
+#profil{width: 38%;
+        height:auto ;
+        background-color: rgb(241, 221, 228);
+        padding: 1% 6%;
+        margin: 5% 0%;
+        border-radius: 10px;
+        position: relative;
+        }
+         
+.anime{width: 70%;
+    height: 70%;
+    margin-top: 10px;
+    border-radius: 10px;}        
+p.red,.tech{font-size: x-small;}
+.team{display: flex;
+      flex-direction: column;
+      margin-bottom: 80px;
+      }
+.MG,.ALI{align-self: flex-end;}  
+.ABDOU::after{content: "";
+               position: absolute;
+               top: 50%;
+               left: 100%;
+               height: 100%;
+               width: 50%;
+               border-top: 2px dashed rgb(240, 160, 188);
+               border-right: 2px dashed  rgb(240, 160, 188);
+               border-top-right-radius: 10px;
+              
+             
+            } 
+.MG::after{content: "";
+                position: absolute;
+                top: 50%;
+                right: 100%;
+                height: 240%;
+                width: 50%;
+                border-top: 2px dashed rgb(240, 160, 188);
+                border-left: 2px dashed rgb(240, 160, 188);
+                border-bottom: 2px dashed  rgb(240, 160, 188);
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+              
+             } 
+  

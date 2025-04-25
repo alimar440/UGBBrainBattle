@@ -1,0 +1,8 @@
+Vous avez juste à faire sur l'invite de commande:
+node server.js
+
+Les fonctions dont vous avez besoin sont dans fonctions.js, vous avez juste besoin de les copier dans votre code et l'utiliser.
+
+Pour le UI(html,css) vous le mettez dans le dossier public.
+Pour les scripts js je vous conseil de les mettre dans des balise scripts 
+Le point d'entrée de l'app est index.js donc Ali tu peux prendre le code d'inscription et le mettre dans index.

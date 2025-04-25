@@ -1,0 +1,21 @@
+.nav{
+    position: fixed;
+    bottom: 20px;
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    padding: 10px 30px;
+}
+.nav a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav a img{
+    width: 20px;
+}

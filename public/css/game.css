@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-color: #F5F5F5;
+    padding: 20px;
+}
+.header-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 60px;
+}
+.score{
+    font-size: 12px;
+}
+.score_bar{
+    margin-top: 20px;
+    width: 100%;
+    height: 10px;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    position: relative;
+}
+#plain_score{
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background-color: #C6281E;
+    border-radius: 15px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    transition: all .7s ease;
+}
+#remaining_t{
+    margin: 10px 0;
+    text-align: center;
+    font-size: 16px;
+}
+#question{
+    font-size: 18px;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+.responses,.solutions{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.response,.solution{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.res_content,.sol_content{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+.response:nth-child(1){
+    background-color: #377AFF;
+}
+.response:nth-child(2){
+    background-color: #12D18E;
+}
+.response:nth-child(3){
+    background-color: #F75455;
+}
+.response:nth-child(4){
+    background-color: #FF981F;
+}
+.choice{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#btn{
+    width: 100%;
+    height: 40px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #C6281E;
+    color: white;
+    border-radius: 30px;
+    margin-top: 25px;
+}
+.popup{
+    position: fixed;
+    left: 50%;
+    bottom: -25px;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 8px;
+    transition: all .7s ease;
+    opacity: 0;
+}
+#bonne{
+    background-color: #12D18E;
+}
+#mauvaise{
+    background-color: #F75455;
+}
+#game{
+    display: block;
+}
+#resultat{
+    display: none;
+    align-items: center;
+    margin-top: 200px;
+    flex-direction: column;
+    gap: 20px;
+
+}
+#resultat h2{
+    text-align: center;
+}
+#voir_classement{
+    background-color: #C6281E;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+#final_points{
+    /* color: #C6281E; */
+    font-weight: bold;
+}

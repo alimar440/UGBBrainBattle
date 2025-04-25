@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/start.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <div class="center">
+        <div class="card" style="text-align: center;">
+            <img src="../assets/Logo.png" alt="UGB Brain Battle" width="120"  />
+            <h1>Bonjour 👋</h1>
+        
+            <form id="userForm">
+              <div class="form-group">
+                <label>Nom d’utilisateur</label>
+                <input type="text" name="name" id="username" required />
+              </div>
+        
+              <div class="form-group">
+                <label>Sexe</label>
+                <select name="gender" id="gender" required>
+                  <option value="">-- Choisir --</option>
+                  <option value="M">M</option>
+                  <option value="F">F</option>
+                </select>
+              </div>
+              
+                <button type="submit" id="submitBtn">Valider ✅</button>
+            </form>
+        </div>
+    </div>
+  
+  
+    <!-- <script>
+      const form = document.getElementById('userForm');
+      const usernameInput = document.getElementById('username');
+      const genderInput = document.getElementById('gender');
+  
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+  
+        const username = usernameInput.value.trim();
+        const gender = genderInput.value;
+  
+        if (username && gender) {
+          alert(`Bienvenue ${username} (${gender}) !`);
+           } else {
+          alert('Veuillez remplir tous les champs.');
+        }
+      });
+    </script> -->
+
+    <script src="../js/start.js"></script>
+  
+  </body>
+</html>

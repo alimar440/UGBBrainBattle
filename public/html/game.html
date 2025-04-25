@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/game.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header-row">
+        <img src="../assets/Logo.png" alt="" class="logo">
+        <span class="quiztitle">Quiz</span>
+        <span class="score"><span id="score_count">1</span>/10</span>
+    </div>
+    <div id="game">
+        <div class="score_bar">
+            <div id="plain_score"></div>
+        </div>
+        <p id="remaining_t">10s</p>
+        <p id="question"></p>
+        <div class="responses">
+            <label for="r1" class="response"><span class="res_content"></span> <input type="radio" name="choice" class="choice" id="r1" value="1"></label>
+            <label for="r2" class="response"><span class="res_content"></span> <input type="radio" name="choice" class="choice" id="r2" value="2"></label>
+            <label for="r3" class="response"><span class="res_content"></span> <input type="radio" name="choice" class="choice" id="r3" value="3"></label>
+            <label for="r4" class="response"><span class="res_content"></span> <input type="radio" name="choice" class="choice" id="r4" value="4"></label>
+        </div>
+        <div class="solutions">
+            <div class="solution"><span class="sol_content"></span></div>
+            <div class="solution"><span class="sol_content"></span></div>
+            <div class="solution"><span class="sol_content"></span></div>
+            <div class="solution"><span class="sol_content"></span></div>
+        </div>
+        <div id="btn">Valider</div>
+        <div id="bonne" class="popup">Bonne réponse</div>
+        <div id="mauvaise" class="popup">Mauvaise réponse</div>
+    </div>
+    <div id="resultat">
+        <h2>Bravo ! 🎉, vous avez capitalisé un total de <span id="final_points"></span></h2>
+        <div href="#" id="voir_classement">Voir le classement</div>
+    </div>
+    <script src="../js/game.js"></script>
+</body>
+</html>

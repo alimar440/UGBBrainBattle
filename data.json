@@ -1,0 +1,38 @@
+[
+  {
+    "rank": 1,
+    "name": "Sokhna",
+    "avatar": "../assets/sexeF/avatar20.png",
+    "points": 100
+  },
+  {
+    "rank": 2,
+    "name": "Sadibu",
+    "avatar": "../assets/SexeM/avatar5.png",
+    "points": 80
+  },
+  {
+    "rank": 3,
+    "name": "BX1",
+    "avatar": "../assets/SexeM/avatar9.png",
+    "points": 70
+  },
+  {
+    "rank": 4,
+    "name": "AliMar",
+    "avatar": "../assets/SexeM/avatar9.png",
+    "points": 30
+  },
+  {
+    "rank": 5,
+    "name": "Sadibou",
+    "avatar": "../assets/SexeM/avatar7.png",
+    "points": 10
+  },
+  {
+    "rank": 6,
+    "name": "Csroot",
+    "avatar": "../assets/SexeM/avatar4.png",
+    "points": 0
+  }
+]
