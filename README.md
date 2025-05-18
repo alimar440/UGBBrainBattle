@@ -28,9 +28,10 @@ UGB Brain Battle est un jeu web éducatif développé dans le cadre d’un proje
 
 
 ![Accueil](screenshots/home.png) 
-![Classement](screenshots/ranking.png)
-![Classement](screenshots/quiz.png)
-![Classement](screenshots/start.png)
+![Classement](screenshoot/ranking.png)
+![Classement](screenshoot/quiz.png)
+![Classement](screenshoot/quiz2.png)
+![Classement](screenshoot/start.png)
 
 
 
