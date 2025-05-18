@@ -10,32 +10,12 @@ UGB Brain Battle est un jeu web éducatif développé dans le cadre d’un proje
 - 💡 Questions à choix multiples pour stimuler la réflexion
 - 🌐 Interface web responsive (HTML, CSS, JavaScript)
 
-## 📁 Structure du projet
-UGB-Brain-Battle/
-│
-├── index.html # Page d'accueil
-├── start.html # Page de démarrage du jeu
-├── ranking.html # Page du classement
-│
-├── css/
-│ └── styles.css # Feuille de style principale
-│
-├── js/
-│ ├── home.js # Script de la page d'accueil
-│ ├── start.js # Script du jeu
-│ └── ranking.js # Script du classement
-│
-├── data/
-│ └── players.json # Données des joueurs
-│
-└── README.md # Ce fichier
-
 ## 🛠️ Technologies utilisées
 
 - HTML5
 - CSS3
-- JavaScript (vanilla)
-- JSON
+- JavaScript 
+- Express
 
 ## ✅ À faire
 
@@ -49,6 +29,7 @@ UGB-Brain-Battle/
 
 ![Accueil](screenshots/home.png) 
 ![Classement](screenshots/ranking.png)
+![Classement](screenshots/quiz.png)
 ![Classement](screenshots/start.png)
 
 
